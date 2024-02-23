@@ -1,0 +1,18 @@
+ '''A program that calculate the grade of student based on  their percentage score.
+the program should print out the '''
+
+grade= int(input("Enter your grade:"))
+    print(grade)
+
+    if grade>=90 and grade <= 100:
+        print(grade,"A is my grade")
+    elif grade>= 80 and grade <= 90:
+        print (grade,"B is your grade")
+    elif grade>= 70 and grade <= 60:
+        print(grade,"C is my grade")
+    elif grade>=60 and grade <= 70:
+        print(grade,"D is your grade")
+    elif grade>=50 and grade <=60:
+        print(grade,"E is my grade")
+    else:
+        print(grade,"F is my grade")
