@@ -1,0 +1,61 @@
+'''Triangle Calculation'''
+#height =float(input("Enter the value of height:"))
+#base = float (input("Enter the value of base:"))
+
+#area=(1/2) * height * base
+#print("Enter the area of triangle",area)
+
+'''Swap two variables with 3rd variable'''
+x = 13
+y = 12
+temp = x
+#print("The value of temp variable is",temp)
+
+#x=y
+#print("The value of x is:",x)
+
+#y = temp
+#print("The value of y is:",y)
+
+'''Without using 3rd vatiable'''
+x = 13
+y = 12
+x,y = y,x
+#print("The value of x",x)
+#print("The value of y",y)
+
+'''Km to miles'''
+#km=float(input("Enter the value in km: "))
+
+#miles=(0.621371)*km
+#print(km,"kms in miles will be",miles)
+
+
+'''Number positive,negative or zero'''
+'''CONDITIONAL STATEMENT'''
+#num = int(input("Enter the number:"))
+#if num>0:
+   # print("It is the positive number!")
+#elif num==0:
+   # print("It is zero!")
+#else:
+   # print("It is a negative number!")
+
+'''Even or odd'''
+#num =int(input("Enter the number for check:"))
+#if num %2 ==0:
+  #  print("It is an even number!")
+#else:
+   # print("It is an odd number!!")
+
+
+'''Check Leapyear'''
+year = int(input("Enter the year: "))
+
+if (year % 400 == 0)and (year %100 == 0):
+    print(year,"Is a leap year")
+elif(year % 4 ==0) and (year %100!=0):
+    print(year,"Is a leap year")
+else:
+    print("Is not a leap year")
+
