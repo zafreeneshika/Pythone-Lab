@@ -1,0 +1,54 @@
+#Creating Variables
+num1 =int(input('Enter the 1st number :'))
+num2 =int(input('Enter the 2nd number :'))
+num3 =int(input('Enter the 3rd number:'))
+
+#Conditional Statement and operator(<,>),and=Logical Operator
+if (num1>num2 )and (num1>num3):
+    print(num1,'Num1 is the largest')
+elif(num2>num1)and(num2>num3):
+    print(num2,'Num2 is the largest')
+else:
+    print(num3,'Num3 is the largest!')
+
+
+'''Prime number or not'''
+num=int(input("Enter a number here:"))
+
+if num == 1:
+    print("It is not a prime number")
+    if num > 1:
+        for i in range(2,num):
+            if num % i ==0:
+                print("It is not a prime number")
+                break
+else:
+    print("It is a prime number")
+
+
+
+'''Input random number by importing '''
+import random
+
+num = random.randint(5,10)
+print (num)
+
+
+'''Prime number in an given interval'''
+lower=int(input("Enter lower limit here :"))
+upper=int(input("Enter upper limit here:"))
+
+for num in range(lower , upper+1):
+    if num>1:
+        for i in range (2,num):
+            if num%i ==0:
+                break
+            else:
+                print(num)  
+
+
+'''Celsius to fahrenheit'''
+celsius=int(input("Enter the temparature in celsius: "))
+
+fahrenheit = (celsius *(9/5))+32
+print("The converter value is",fahrenheit,"Fahrenheit")
